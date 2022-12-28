@@ -5,7 +5,7 @@ phases:
       python: 3.10
     commands:
       - echo "Instalamos dependencias en el docker..."
-      - pip install -r requirements.txt -t lib
+      #- pip install -r requirements.txt -t lib
   build:
     commands:
       - echo "Instalamos por las dudas zip..."
