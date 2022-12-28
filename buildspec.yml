@@ -4,7 +4,7 @@ phases:
     runtime-versions:
       python: 3.10
     commands:
-      - echo "Instalamos dependencias en el docker..."
+      - echo "Instalamos dependencias en docker..."
       - echo "Actualizamos la funcion lambda..."
-      - aws lambda update-function-code --function-name update-function-code --s3-bucket fromsnowtos3 --s3-key connector/deployment_package.zip
-      - echo "Hecho!!"
+      - aws lambda update-function-code --function-name github-to-lambda-demo --s3-bucket fromsnowtos3 --s3-key connector/deployment_package.zip
+      - echo "Hecho!!!"
