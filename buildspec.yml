@@ -7,4 +7,4 @@ phases:
       - echo "Instalamos dependencias en el docker..."
       - echo "Actualizamos la funcion lambda..."
       - aws lambda update-function-code --function-name update-function-code --s3-bucket fromsnowtos3 --s3-key connector/deployment_package.zip
-      - echo "Hecho!!!"
+      - echo "Hecho!!"
